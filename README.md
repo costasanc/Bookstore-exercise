@@ -1,6 +1,6 @@
-# Commerce Services - Technical Interview
+# Bookstore exercise
 
-## Problem:
+## Problem
 
 We are an online book store. We receive book orders from customers and process them.
 
@@ -21,7 +21,7 @@ We are an online book store. We receive book orders from customers and process t
   - The application has an endpoint to extract a list of existing orders.
   - The endpoint has a request parameter to indicate the format of requested data. It can be JSON or CSV.
 
-## Required:
+## Required
 
 - Resolution needs to be fully in English
 - We expect you to create a SpringBoot project [this template](https://start.spring.io/#!type=maven-project&language=java&platformVersion=2.5.2.RELEASE&packaging=jar&jvmVersion=11&groupId=com.adobe&artifactId=bookstore&name=bookstore&description=Book%20Store&packageName=com.adobe.bookstore&dependencies=web,data-jpa,h2), create a public repository with a solution. Once the code is complete, reply to your hiring person of contact.
@@ -58,11 +58,3 @@ We are an online book store. We receive book orders from customers and process t
 - Create a new Order (POST) -> http://localhost:8080/orders
 - Retrieve Orders in JSON format (GET) -> http://localhost:8080/orders?format=JSON
 - Retrieve Orders in CSV format (GET) -> http://localhost:8080/orders?format=CSV
-
-Example of create
-
-![image](https://user-images.githubusercontent.com/79670932/143312533-72c25788-83ae-4e89-8a4b-77d19fceee31.png)
-
-Example of retrieve
-
-![image](https://user-images.githubusercontent.com/79670932/143312594-99bf93b2-c5db-446f-ba1d-c3b54aee17a3.png)
